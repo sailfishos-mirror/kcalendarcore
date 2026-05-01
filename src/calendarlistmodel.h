@@ -45,8 +45,8 @@ public:
       The access mode of the calendar (see KCalendarCore::AccessMode).
       \value IdRole
       The internal calendar id.
-      \value ColorRole
-      The calendar color (since 6.26).
+      \value[since 6.26] ColorRole
+      The calendar color.
      */
     enum Role {
         NameRole = Qt::DisplayRole,

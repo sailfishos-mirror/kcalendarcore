@@ -259,10 +259,16 @@ class KCALENDARCORE_EXPORT Calendar : public QObject, public CustomProperties, p
 
     /*!
      * \qmlproperty string calendar::color
+     * \since 6.26
+     *
+     * This calendar's color.
      */
 
     /*!
      * \property KCalendarCore::Calendar::color
+     * \since 6.26
+     *
+     * This calendar's color.
      */
     Q_PROPERTY(QString color READ color WRITE setColor NOTIFY colorChanged)
 
